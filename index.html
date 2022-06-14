@@ -4,12 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link href="./fonts/game-over.ttf" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./css/style.css" />
+
     <script src="./js/script.js" defer></script>
 
     <title>Mario Jump</title>
   </head>
   <body>
-      
+    <div class="game-board">
+      <img src="./images/clouds.png" class="clouds" />
+      <img src="./images/mario.gif" class="mario" />
+      <img src="./images/pipe.png" class="pipe" />
+
+      <span class="font score-title">Score: </span>
+      <span class="font score-value">0</span>
+
+      <span class="font center game-over">GAME OVER</span>
+      <span class="font center restart">Press SPACE to restart!</span>
+    </div>
   </body>
 </html>
